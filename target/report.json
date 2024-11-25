@@ -1,0 +1,494 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Launch browser and website of Pharmeasy",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3377951600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Launch the browser and website",
+            "match": {
+              "location": "HOOKS.hooks.launch_the_browser_and_website()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-11-25T08:12:31.671Z",
+        "line": 8,
+        "name": "Validate Booking medicine functionality with valid data",
+        "description": "",
+        "id": "booking-medicine-functionality;validate-booking-medicine-functionality-with-valid-data",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1985379600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Select the medicine tab TC1",
+            "match": {
+              "location": "TaskNov19.TC001.select_the_medicine_tab_TC1()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 480189000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Enter valid medicine and click search button TC1",
+            "match": {
+              "location": "TaskNov19.TC001.enter_valid_medicine_and_click_search_button_TC1()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1177732100,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Choose particular product from product list TC1",
+            "match": {
+              "location": "TaskNov19.TC001.choose_particular_product_from_product_list_TC1()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1149772800,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Click AddToCart button TC1",
+            "match": {
+              "location": "TaskNov19.TC001.click_AddToCart_button_TC1()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1071185500,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Enter quantity of product and click ViewCart button TC1",
+            "match": {
+              "location": "TaskNov19.TC001.enter_quantity_of_product_and_click_ViewCart_button_TC1()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1221549200,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Check the product name and quantity in Cart page TC1",
+            "match": {
+              "location": "TaskNov19.TC001.check_the_product_name_and_quantity_in_Cart_page_TC1()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "Launch browser and website of Pharmeasy",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2027674800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Launch the browser and website",
+            "match": {
+              "location": "HOOKS.hooks.launch_the_browser_and_website()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-11-25T08:12:42.232Z",
+        "line": 16,
+        "name": "Validate Booking medicine functionality with invalid data",
+        "description": "",
+        "id": "booking-medicine-functionality;validate-booking-medicine-functionality-with-invalid-data",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1914705100,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Select the medicine tab TC2",
+            "match": {
+              "location": "TaskNov19.TC002.select_the_medicine_tab_TC2()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 555839200,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Enter valid medicine and click search button TC2",
+            "match": {
+              "location": "TaskNov19.TC002.enter_valid_medicine_and_click_search_button_TC2()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 39644800,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "Check the error message showing on the screen TC2",
+            "match": {
+              "location": "TaskNov19.TC002.check_the_error_message_showing_on_the_screen_TC2()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "Launch browser and website of Pharmeasy",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2554376200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Launch the browser and website",
+            "match": {
+              "location": "HOOKS.hooks.launch_the_browser_and_website()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-11-25T08:12:46.774Z",
+        "line": 21,
+        "name": "Validate the booking Lab Test with valid data",
+        "description": "",
+        "id": "booking-medicine-functionality;validate-the-booking-lab-test-with-valid-data",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5891436600,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "Select the Lab Test tab TC3",
+            "match": {
+              "location": "TaskNov19.TC003.select_the_Lab_Test_tab_TC3()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2138151500,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "Select any Certified Lab partner TC3",
+            "match": {
+              "location": "TaskNov19.TC003.select_any_Certified_Lab_partner_TC3()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3862139900,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "Choose the Test type TC3",
+            "match": {
+              "location": "TaskNov19.TC003.choose_the_Test_type_TC3()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4448976800,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "Enter the number of patients TC3",
+            "match": {
+              "location": "TaskNov19.TC003.enter_the_number_of_patients_TC3()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "Click ViewCart button TC3",
+            "match": {
+              "location": "TaskNov19.TC003.click_ViewCart_button_TC3()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 143388700,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "Check the Test type and Patient count in Cart page TC3",
+            "match": {
+              "location": "TaskNov19.TC003.check_the_Test_type_and_Patient_count_in_Cart_page_TC3()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "Launch browser and website of Pharmeasy",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2359134700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Launch the browser and website",
+            "match": {
+              "location": "HOOKS.hooks.launch_the_browser_and_website()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-11-25T08:13:05.815Z",
+        "line": 29,
+        "name": "Validate the booking Lab Test with invalid data",
+        "description": "",
+        "id": "booking-medicine-functionality;validate-the-booking-lab-test-with-invalid-data",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6627422800,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "Select the Lab Test tab TC4",
+            "match": {
+              "location": "TaskNov19.TC004.select_the_Lab_Test_tab_TC4()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2888587400,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "Select any Certified Lab partner TC4",
+            "match": {
+              "location": "TaskNov19.TC004.select_any_Certified_Lab_partner_TC4()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "Click ViewCart button with out filling Test type and patient count TC4",
+            "match": {
+              "location": "TaskNov19.TC004.click_ViewCart_button_with_out_filling_Test_type_and_patient_count_TC4()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "Check the error message displayed in the page TC4",
+            "match": {
+              "location": "TaskNov19.TC004.check_the_error_message_displayed_in_the_page_TC4()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "Launch browser and website of Pharmeasy",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2571615600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Launch the browser and website",
+            "match": {
+              "location": "HOOKS.hooks.launch_the_browser_and_website()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-11-25T08:13:17.706Z",
+        "line": 35,
+        "name": "Validate Choose your location functionality",
+        "description": "",
+        "id": "booking-medicine-functionality;validate-choose-your-location-functionality",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1909340700,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "Select the Pincode button TC5",
+            "match": {
+              "location": "TaskNov19.TC005.select_the_Pincode_button_TC5()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 514373400,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "Enter the Pincode,Address and click Check button TC5",
+            "match": {
+              "location": "TaskNov19.TC005.enter_the_Pincode_Address_and_click_Check_button_TC5()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4661981000,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "Select the medicine tab TC5",
+            "match": {
+              "location": "TaskNov19.TC005.select_the_medicine_tab_TC5()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 681309400,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "Enter valid medicine and click search button TC5",
+            "match": {
+              "location": "TaskNov19.TC005.enter_valid_medicine_and_click_search_button_TC5()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1478665200,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "Choose particular product from product list TC5",
+            "match": {
+              "location": "TaskNov19.TC005.choose_particular_product_from_product_list_TC5()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1603869600,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "Click AddToCart button TC5",
+            "match": {
+              "location": "TaskNov19.TC005.click_AddToCart_button_TC5()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1363906000,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "Enter quantity of product and click ViewCart button TC5",
+            "match": {
+              "location": "TaskNov19.TC005.enter_quantity_of_product_and_click_ViewCart_button_TC5()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 484400100,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "Check the product name and quantity in Cart page TC5",
+            "match": {
+              "location": "TaskNov19.TC005.check_the_product_name_and_quantity_in_Cart_page_TC5()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Booking medicine functionality",
+    "description": "",
+    "id": "booking-medicine-functionality",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/TaskNov19/featureFiles/bookMedicine.feature",
+    "tags": []
+  }
+]
